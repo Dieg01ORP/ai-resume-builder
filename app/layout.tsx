@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "ResumeAI — Crea tu CV perfecto con IA",
   description:
     "Constructor de CV profesional con IA. 8 plantillas diseñadas por expertos, mejora tu contenido con Meta Llama 3.1 y descarga tu PDF en un clic. Gratis.",
+  verification: {
+    google: "5IjFyKjLTCejwBTuAYQ9WIYWrj7FYduWDy1DKPUZ0Lc",
+  },
   keywords: "crear cv, generador de curriculum, cv con ia, plantillas cv, curriculum vitae profesional",
   openGraph: {
     title: "ResumeAI — Crea tu CV perfecto con IA",
