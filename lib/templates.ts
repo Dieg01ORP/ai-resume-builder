@@ -1,0 +1,78 @@
+import { Template } from "@/types";
+
+export const TEMPLATES: Template[] = [
+  {
+    id: "executive",
+    name: "Executive",
+    description: "Header oscuro con layout limpio para roles senior",
+    previewBg: "#0D0D0D",
+    previewAccent: "#C9A84C",
+    previewLayout: "full-width",
+    accentColors: ["#C9A84C", "#D4AF37", "#E8C547", "#B8860B", "#C4873A", "#A0855B", "#D4956A", "#8B6914"],
+  },
+  {
+    id: "minimal",
+    name: "Minimal",
+    description: "Tipografía grande, espacios generosos, sin distracciones",
+    previewBg: "#FAFAF8",
+    previewAccent: "#6B8F71",
+    previewLayout: "full-width",
+    accentColors: ["#6B8F71", "#4A6B50", "#2E5E35", "#3D7A5A", "#5B9B6A", "#2D6A4F", "#1B4332", "#8FAF95"],
+  },
+  {
+    id: "creative",
+    name: "Creative",
+    description: "Sidebar oscuro con timeline visual para perfiles creativos",
+    previewBg: "#131620",
+    previewAccent: "#7B68EE",
+    previewLayout: "sidebar-left",
+    accentColors: ["#7B68EE", "#6A5ACD", "#9370DB", "#8A4FFF", "#5E3FDE", "#B57BFF", "#E040FB", "#483D8B"],
+  },
+  {
+    id: "classic",
+    name: "Classic",
+    description: "Formato ATS-friendly preferido por reclutadores corporativos",
+    previewBg: "#FFFFFF",
+    previewAccent: "#2563EB",
+    previewLayout: "full-width",
+    accentColors: ["#2563EB", "#1D4ED8", "#1E40AF", "#0369A1", "#0891B2", "#0F766E", "#047857", "#3B82F6"],
+  },
+  {
+    id: "nordic",
+    name: "Nordic",
+    description: "Sidebar derecho, paleta fría, diseño escandinavo limpio",
+    previewBg: "#F4F6F9",
+    previewAccent: "#4A90A4",
+    previewLayout: "sidebar-right",
+    accentColors: ["#4A90A4", "#2E7D9C", "#1B6B8A", "#5BA3B5", "#3D8296", "#6BAFC0", "#2C6E7E", "#1A5568"],
+  },
+  {
+    id: "bold",
+    name: "Bold",
+    description: "Header a todo color con nombre grande, máximo impacto visual",
+    previewBg: "#1E1B4B",
+    previewAccent: "#F59E0B",
+    previewLayout: "banner",
+    accentColors: ["#F59E0B", "#EF4444", "#10B981", "#3B82F6", "#8B5CF6", "#EC4899", "#F97316", "#06B6D4"],
+  },
+  {
+    id: "elegant",
+    name: "Elegant",
+    description: "Líneas finas, serif clásico, estilo revista de lujo",
+    previewBg: "#FAF7F2",
+    previewAccent: "#9B6B4A",
+    previewLayout: "split-top",
+    accentColors: ["#9B6B4A", "#7A5235", "#B8845A", "#8B6350", "#6B4226", "#C49A6C", "#A67C52", "#5C3D2E"],
+  },
+  {
+    id: "compact",
+    name: "Compact",
+    description: "Dos columnas densas, máxima información en una página",
+    previewBg: "#FFFFFF",
+    previewAccent: "#DC2626",
+    previewLayout: "two-col-header",
+    accentColors: ["#DC2626", "#B91C1C", "#7C3AED", "#2563EB", "#059669", "#D97706", "#0891B2", "#64748B"],
+  },
+];
+
+export const DEFAULT_TEMPLATE = TEMPLATES[0];
