@@ -280,7 +280,7 @@ export function TemplateSelector({ selectedTemplate, selectedColor, onTemplateCh
                       ? "ring-2 ring-offset-1 shadow-lg scale-105"
                       : "ring-1 ring-ink-100 hover:ring-ink-300 hover:scale-[1.02]"
                     }`}
-                  style={{ ringColor: isSelected ? selectedColor : undefined, boxShadow: isSelected ? `0 4px 12px ${selectedColor}33` : undefined }}
+                  style={{ boxShadow: isSelected ? `0 0 0 2px ${selectedColor}, 0 4px 12px ${selectedColor}33` : undefined }}
                 >
                   <TemplateMiniPreview template={template} accent={previewAccent} />
 
