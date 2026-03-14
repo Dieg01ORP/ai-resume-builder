@@ -77,7 +77,7 @@ export function ElegantTemplate({ cvData }: TemplateProps) {
                         {formatDate(exp.startDate)}{exp.startDate ? " – " : ""}{exp.current ? "Presente" : formatDate(exp.endDate)}
                       </p>
                     </div>
-                    <p style={{ fontSize: "11px", color: accent, fontWeight: 600, margin: "0 0 5px", letterSpacing: "0.04em", textTransform: "uppercase", fontSize: "9.5px" }}>{exp.company}</p>
+                    <p style={{ fontSize: "9.5px", color: accent, fontWeight: 600, margin: "0 0 5px", letterSpacing: "0.04em", textTransform: "uppercase" }}>{exp.company}</p>
                     {exp.description && exp.description.split("\n").filter(Boolean).map((line, i) => (
                       <p key={i} style={{ fontSize: "11px", color: "#6B5C4C", lineHeight: 1.7, margin: "0 0 2px" }}>{line.replace(/^•\s*/, "")}</p>
                     ))}
