@@ -65,7 +65,7 @@ export async function callLlama(prompt: string): Promise<string> {
       "Authorization": `Bearer ${apiKey}`,
     },
     body: JSON.stringify({
-      model: "llama-3.1-70b-versatile",  // Meta Llama 3.1 70B — gratuito en Groq
+      model: "llama-3.3-70b-versatile",
       messages: [
         {
           role: "system",
